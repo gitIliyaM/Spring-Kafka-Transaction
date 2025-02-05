@@ -1,0 +1,8 @@
+package ru.t1.java.demo.aop;
+
+import java.lang.annotation.*;
+
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.METHOD)
+public @interface AroundDataProcessorService {
+}

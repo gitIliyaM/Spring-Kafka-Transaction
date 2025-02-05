@@ -1,0 +1,22 @@
+spring:
+  docker:
+    compose:
+      lifecycle-management: none
+  application:
+    name: ru.t1.java.demo
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/db"
+    username: "user"
+    password: "pass"
+    driverClassName: org.postgresql.Driver
+  liquibase:
+    enabled: true
+    change-log: db/changelog/db.changelog-master.xml
+
+logging:
+  level:
+    ROOT: ${LOG_LEVEL:INFO}
+    ru.t1.java.demo.controller.ClientController: DEBUG
+
+t1:
+  scan-path: ru.t1.java.demo

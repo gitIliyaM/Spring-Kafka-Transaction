@@ -1,0 +1,58 @@
+[
+  {
+    "idClient": 1,
+    "idTransaction": 1,
+    "amountTransaction": 150.0,
+    "statusTransactions": "REQUESTED",
+    "timeTransaction": "2023-01-01T14:30:00"
+  },
+  {
+    "idClient": 1,
+    "idTransaction": 2,
+    "amountTransaction": 50.0,
+    "statusTransactions": "BLOCKED",
+    "timeTransaction": "2023-01-02T14:35:00"
+  },
+  {
+    "idClient": 2,
+    "idTransaction": 1,
+    "amountTransaction": 150.0,
+    "statusTransactions": "REQUESTED",
+    "timeTransaction": "2023-04-05T11:30:00"
+  },
+  {
+    "idClient": 2,
+    "idTransaction": 2,
+    "amountTransaction": 50.0,
+    "statusTransactions": "REQUESTED",
+    "timeTransaction": "2023-06-02T16:30:00"
+  },
+  {
+    "idClient": 3,
+    "idTransaction": 1,
+    "amountTransaction": 150.0,
+    "statusTransactions": "REQUESTED",
+    "timeTransaction": "2023-01-01T14:30:00"
+  },
+  {
+    "idClient": 3,
+    "idTransaction": 2,
+    "amountTransaction": 50.0,
+    "statusTransactions": "REQUESTED",
+    "timeTransaction": "2023-01-02T14:35:00"
+  },
+  {
+    "idClient": 4,
+    "idTransaction": 1,
+    "amountTransaction": 150.0,
+    "statusTransactions": "REQUESTED",
+    "timeTransaction": "2023-04-05T11:30:00"
+  },
+  {
+    "idClient": 4,
+    "idTransaction": 2,
+    "amountTransaction": 50.0,
+    "statusTransactions": "REQUESTED",
+    "timeTransaction": "2023-06-02T16:30:00"
+  }
+]
